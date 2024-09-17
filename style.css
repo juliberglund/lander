@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.index_body {
+  margin: 0;
+  height: 100%;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(217, 217, 217);
+}
+
+#index_header {
+  background-color: rgba(221, 207, 199, 0.181);
+}
+
+#container {
+  width: 50%;
+  margin-left: 450px;
+  /* margin: auto; */
+  min-height: 100%;
+}
+
+nav {
+  width: 15%;
+  margin: center;
+}
+
+aside {
+  width: 20%;
+}
+
+#container h1 {
+  font-size: 30px;
+  padding: 5%;
+  color: rgb(7, 1, 13);
+}
+
+#länk a {
+  color: rgb(0, 2, 2);
+  text-decoration-line: underline;
+  font-style: oblique;
+  font-size: 30px;
+}
+
+#länk a:hover {
+  color: rgb(71, 55, 215);
+}
+
+#footer {
+  background-color: #524f4f;
+  height: 100px;
+  margin-top: 450px;
+}
+/* Sweden */
+#sverige {
+  background-color: rgba(20, 212, 241, 0.384);
+}
+
+#sverige h1 {
+  padding-left: 550px;
+}
+
+/* #swediv {
+  background-color: aquamarine;
+  width: 50%;
+  height: 40%;
+} */
+
+#sverige p {
+  color: rgb(12, 2, 21);
+  font-size: 20px;
+  padding-left: 300px;
+  padding-top: 10px;
+}
+
+#swepic {
+  padding-left: 400px;
+  padding-top: 100px;
+
+  width: 500px;
+}
+
+#swetbx {
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  color: buttontext;
+  background-color: buttonface;
+  text-decoration: none;
+}
+
+/* --------- Finland -------------- */
+
+#finland {
+  background-color: rgba(41, 147, 148, 0.404);
+}
+
+#finland h1 {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 550px;
+}
+
+#finland p {
+  padding: 5px;
+  padding-left: 450px;
+}
+
+#finpic {
+  padding-left: 400px;
+  padding-top: 100px;
+  width: 500px;
+}
+
+#finland a:hover {
+  color: rgb(246, 239, 239);
+  background-color: rgb(1, 5, 5);
+  border: 2px solid #2e04aa; /* Green */
+  transition-duration: 0.4s;
+}
+
+#finland a {
+  margin-left: 38%;
+}
